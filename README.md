@@ -60,6 +60,21 @@ graph TD
 
 ---
 
+## 🛠️ Tech Stack & Tools
+
+The application leverages a lightweight, modern technology stack designed for responsiveness, performance, and data security:
+
+* **React 19 & Vite**: Component-based user interface structure bundled with Vite for near-instant hot module replacement (HMR) and optimized build times.
+* **Vanilla CSS (HSL Tokens)**: Fully custom design system featuring responsive glassmorphic cards, custom animations, glowing drop shadows, and active HSL color palettes.
+* **Ollama (SLM Engine)**: Powering offline, CPU/GPU-driven inference using Small Language Models (e.g. Phi-3, Llama-3) via localhost port `11434`.
+* **Local RAG (Vector Search)**: Custom client-side search parser (`src/utils/rag.js`) implementing TF-IDF tokenization, word boundaries filtering, and cosine similarity indexing to perform semantic document search.
+* **DuckDuckGo Instant Answer API**: Acts as an asynchronous fallback knowledge base using CORS-friendly definition/abstract lookups.
+* **Web Speech API**: Powers client-side, browser-native Voice-to-Text translation.
+* **Lucide React & Canvas Confetti**: Modern visual iconography and celebration micro-animations.
+* **Oxlint**: Rust-based linting engine ensuring code cleanliness with high compilation speeds.
+
+---
+
 ## 🚀 Local Installation & Setup
 
 ### Prerequisites
